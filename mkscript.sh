@@ -8,7 +8,7 @@ if [ ! -d ~/bin ]
 then
     mkdir ~/bin
 fi
-if [ -e $1 ]
+if [ -f $1 ]
 then
     chmod u+x $1
     if [ -e ~/bin/$1 ]
